@@ -1,31 +1,46 @@
-body {
+body, h1 {
     margin: 0;
+    
 }
 
 .header {
+    background-color: #1F2937;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center; 
+
+    
 }
 
-h1 {
-    margin: 0;
+.rightlist-links {
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 100px;
+    
 }
 
-.header, 
-.hero {
-    background-color: #1F2937;
+.header-leftctr {
+    width: 50%;
+    justify-content: flex-end;  
     
 }
 
 p, li {
     font-size: 18px;
-    color: #E5E7EB;
-   
+    color: #E5E7EB;   
     
 }
 
+
 ul {
-    list-style: none;
+    display: flex;
+    width: 50%;
+    
+    list-style: none;   
+    
 }
 
 a {
@@ -33,7 +48,9 @@ a {
 }
 
 .head-logo {
+    padding-left: 100px;
     height: auto;
     width: 50px;
+    
     
 }
