@@ -196,13 +196,3 @@ p {
     color: #E5E7EB;
     font-size: 18px;
 }
-
-
-
-/* Questions to ask once the project is completed: 
-
-1/ I couldn't center the h2 ( trending cryptocurrencies ) when I used its class (trending-title) but it worked when
-I used the type selector ( h2 ). why ?
-2/ best image format for fast website ?
-3/When I resize my brower, the hero part gets smashed lol how to improve this ?
-*/
