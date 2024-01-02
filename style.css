@@ -1,5 +1,6 @@
 body, h1 {
-    margin: 0;    
+    margin: 0;
+    
 }
 
 .header {
@@ -8,7 +9,6 @@ body, h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .rightlist-links {
@@ -17,26 +17,22 @@ body, h1 {
     align-items: center;
     gap: 20px;
     padding-right: 200px;
-    
 }
 
 .header-leftctr {
     width: 50%;
     justify-content: flex-end;  
-    
 }
 
 p, li {
     font-size: 18px;
     color: #E5E7EB;   
-    
 }
 
 ul {
     display: flex;
     width: 50%;    
     list-style: none;   
-    
 }
 
 a, p {
@@ -48,9 +44,10 @@ a, p {
 .head-logo {
     padding-left: 200px;
     height: auto;
-    width: 50px;   
-    
+    width: 50px;
+    border: none;   
 }
+
 
 .hero {
     background-color: #1F2937;
@@ -60,17 +57,17 @@ a, p {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
-    
-}
+
+ }
 
 .hero-intro {
-    width: 500px;    
-    
+    width: 500px;
+    flex-wrap: wrap;
 }
 
 .hero-title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900px;
     color: #F9FAF8;
 }
 
@@ -84,15 +81,47 @@ a, p {
     font-size: 18px;
     color: #E5E7EB;
     border-radius: 20px;
+    
 }
 
-
-
-
 .btc-img {
+    border: none;
+    border-radius: 0%;
     height: auto;
     width: 400px;
 }
 
+h2 {
+    font-size: 36px; 
+    font-weight: bold;
+    text-align: center;    
+}
+
+.crypto-ctr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0 120px;
+    gap: 50px;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3883F6;
+    border-radius: 20%;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
 
 
+/* Questions to ask once the project is completed: 
+
+1/ I couldn't center the h2 ( trending cryptocurrencies ) when I used its class (trending-title) but it worked when
+I used the type selector ( h2 ). why ?
+2/ best image format for fast website ?
+3/When I resize my brower, the hero part gets smashed lol how to improve this ?
+*/
